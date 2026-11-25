@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نورالهدی | چهار قُل</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="description" content="نورالهدی؛ متن عربی و ترجمه فارسی چهار سوره کافرون، اخلاص، فلق و ناس.">
+<link rel="stylesheet" href="style.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <div id="welcome">
+    <h1>نورالهدی</h1>
+    <p>طراح سایت: تیم نورالهدی</p>
+    <p>وتساپ: 09363526501</p>
+</div>
+
+
+<header>
+    <h1>نورالهدی</h1>
+    <p>چهار قُل | نور قرآن، آرامش دل</p>
+</header>
+
+
+<main id="home" class="surahs">
+
+    <div class="circle" onclick="showSurah('kafir')">
+    <h2>
+        <span class="qul">قُلْ</span>
+        <span class="rest">يَا أَيُّهَا الْكَافِرُونَ</span>
+    </h2>
+</div>
+
+    <div class="circle" onclick="showSurah('ikhlas')">
+        <h2>
+    <span class="qul">قُلْ</span>
+    <span class="rest">هُوَ اللَّهُ أَحَدٌ</span>
+</h2>
+    </div>
+
+    <div class="circle" onclick="showSurah('falaq')">
+        <h2>
+    <span class="qul">قُلْ</span>
+    <span class="rest">أَعُوذُ بِرَبِّ الْفَلَقِ</span>
+</h2>
+    </div>
+
+    <div class="circle" onclick="showSurah('nas')">
+        <h2>
+    <span class="qul">قُلْ</span>
+    <span class="rest">أَعُوذُ بِرَبِّ النَّاسِ</span>
+</h2>
+    </div>
+
+</main>
+
+<section id="reader" class="reader" style="display:none;">
+    <button onclick="goHome()">بازگشت ←</button>
+    <h2 id="surahTitle"></h2>
+    <div id="surahText"></div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
