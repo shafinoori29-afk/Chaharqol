@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'AmiriLocal';
+    src: url('./amir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     margin: 0;
     padding: 0;
@@ -270,6 +275,7 @@ header {
     text-align: right;
     margin-bottom: 12px;
     font-family: serif;
+    font-family: 'AmiriLocal', serif;
 }
 
 .translation {
@@ -505,4 +511,8 @@ html, body {
         transform: translateY(0) scale(1);
         filter: blur(0);
     }
+}
+
+.qul, .rest {
+    font-family: 'AmiriLocal', serif;
 }
